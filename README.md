@@ -8,8 +8,7 @@
 - [Características](#características)
 - [Requisitos](#requisitos)
 - [Instalación](#instalación)
-- [Contribución](#contribución)
-- [Desafíos enfrentados](#desafiós)
+- [Desafíos](#desafiós)
 
 ## Características
 
@@ -66,7 +65,7 @@ Instrucciones sobre cómo instalar el proyecto:
    npm start
    ```
 
-## Desafíos enfrentados
+## Desafíos
 
 1. La API proporcionada no contaba con muchos datos para manipular.
 
