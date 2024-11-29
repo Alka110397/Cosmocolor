@@ -1,79 +1,81 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Cosmocolor Test
 
-# Getting Started
+- Enfoque:
+  Aplicación de prueba que muestra un listado de elementos en una vista desplazable, el cual podras obtener más información al seleccionar el elemento.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Tabla de Contenidos
 
-## Step 1: Start the Metro Server
+- [Características](#características)
+- [Requisitos](#requisitos)
+- [Instalación](#instalación)
+- [Contribución](#contribución)
+- [Desafíos enfrentados](#desafiós)
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Características
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- Pantalla Principal:
+  - Obtiene datos de la API JSONPlaceholder https://jsonplaceholder.typicode.com/photos.
+  - Muestra una lista de información (título, id, albumId) en una vista desplazable.
+- Pantalla de Detalles:
+  - Cuando un usuario toca un elemento navega a una pantalla de detalles.
+  - Muestra información detallada del elemento en esta pantalla.
+- Navegación:
+  - Utilización de react-navigation.
+- Estilización:
+  - Contiene estilos básicos para que la aplicación sea visualmente atractiva y fácil de usar.
+- Gestión de Estado:
+  - Utilización de los hooks useState y useEffect de React para la gestión de estado y datos.
+- Extra:
+  - Indicador de "Cargando..." mientras se obtienen los datos.
+  - La aplicación es adaptable a diferentes tamaños de pantalla.
 
-```bash
-# using npm
-npm start
+## Requisitos
 
-# OR using Yarn
-yarn start
-```
+- Node 23.3.0
+- React Native CLI 0.76
 
-## Step 2: Start your Application
+## Instalación
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+Instrucciones sobre cómo instalar el proyecto:
 
-### For Android
+1. Clona el repositorio:
 
-```bash
-# using npm
-npm run android
+   ```bash
+   git clone https://github.com/Alka110397/Cosmocolor.git
 
-# OR using Yarn
-yarn android
-```
+   ```
 
-### For iOS
+2. Instala dependencias:
 
-```bash
-# using npm
-npm run ios
+   ```bash
+   npm install
 
-# OR using Yarn
-yarn ios
-```
+   ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+3. Instala pods (solo iOS):
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+   ```bash
+   cd ios
+   bundle install
+   bundle exec pod install
 
-## Step 3: Modifying your App
+   ```
 
-Now that you have successfully run the app, let's modify it.
+4. Ejecuta el proyecto:
+   ```bash
+   npm start
+   ```
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+## Desafíos enfrentados
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+1. La API proporcionada no contaba con muchos datos para manipular.
 
-## Congratulations! :tada:
+#### Solucion
 
-You've successfully run and modified your React Native App. :partying_face:
+Utilize algunos metodos de Javascript para obtener distintos datos.
 
-### Now what?
+2. No cuento con dispositivo físico Android.
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+#### Solucion
 
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Utilize emuladores para realizar las pruebas necesarias.
