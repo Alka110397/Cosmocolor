@@ -78,3 +78,10 @@ Utilize algunos metodos de Javascript para obtener distintos datos.
 #### Solucion
 
 Utilize emuladores para realizar las pruebas necesarias.
+
+![Simulator Screenshot - iPhone 16 Plus - 2024-11-29 at 03 28 33](https://github.com/user-attachments/assets/9835a78b-791c-4567-815c-47af435edf30)
+![Simulator Screenshot - iPhone 16 Plus - 2024-11-29 at 03 28 17](https://github.com/user-attachments/assets/cf51d6a8-32ff-4f9f-9aa0-41bcb16304cd)
+![Simulator Screenshot - iPhone 16 Plus - 2024-11-29 at 03 28 12](https://github.com/user-attachments/assets/8ff572bd-206d-4037-9986-5ceecd0bec37)
+
+
+
